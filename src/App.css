@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(253, 254, 255);
+}
+
+/* Normal (light) mode styles */
+.App {
+  background-color: #fdf6f6;
+  color: #000000;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+/* Dark mode styles */
+.App.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}

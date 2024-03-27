@@ -1,0 +1,74 @@
+.heading {
+  margin-left: 60px;
+}
+
+header {
+  display: flex;
+}
+
+h5 {
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+/* Dark mode button styles */
+.dark-mode-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-right: 50px;
+  margin-bottom: 7px;
+}
+
+.toggle {
+  width: 40px;
+  height: 20px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  position: relative;
+  transition: background-color 0.5s;
+}
+
+.toggle-dark {
+  background-color: white;
+}
+
+.toggle:before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-color: #000000;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: left 0.5s;
+}
+
+.toggle-dark:before {
+  left: calc(100% - 18px);
+}
+
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  h5 {
+    margin-right: 15px;
+    font-weight: bold;
+  }
+  .dark-mode-button {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 300px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+  }
+}
