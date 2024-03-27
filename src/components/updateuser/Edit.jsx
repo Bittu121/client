@@ -27,7 +27,7 @@ const Edit = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:8000/api/getone/${id}`)
+      .get(`https://server-2fc9.onrender.com/api/getone/${id}`)
       .then((response) => {
         setUser(response.data);
       })

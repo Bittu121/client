@@ -13,7 +13,9 @@ const User = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await axios.get("http://localhost:8000/api/getall");
+      const response = await axios.get(
+        "https://server-2fc9.onrender.com/api/getall"
+      );
       setUsers(response.data);
     };
 
