@@ -18,5 +18,4 @@
 <img src="https://github.com/Bittu121/client/blob/main/5.png">
 <img src="https://github.com/Bittu121/client/blob/main/6.png">
 <img src="https://github.com/Bittu121/client/blob/main/7.png">
-<img src="https://github.com/Bittu121/client/blob/main/8.png">
 <img src="https://github.com/Bittu121/client/blob/main/9.png">
