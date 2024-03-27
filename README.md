@@ -4,14 +4,14 @@ CRUD APP :
 <hr>
 <a href="https://crudapreeminent-daifuku-f68aa4.netlify.app/">Live</a>
 <h2>Technologies Used</h2>
-React.js
-MongoDB
-Express.js
-Node.js
-Bootstrap
-CSS
-Axios
-React-Icons
+React.js<br>
+MongoDB<br>
+Express.js<br>
+Node.js<br>
+Bootstrap<br>
+CSS<br>
+Axios<br>
+React-Icons<br>
 
 <h2>Installation</h2>
 <h2>Navigate to Project Directory:</h2>
