@@ -4,7 +4,7 @@ import axios from "axios";
 import "./add.css";
 import toast from "react-hot-toast";
 import { IoMdArrowRoundBack } from "react-icons/io";
-
+const baseurl = "https://server-2fc9.onrender.com";
 const Add = () => {
   const users = {
     fname: "",
@@ -24,7 +24,7 @@ const Add = () => {
   const submitForm = async (e) => {
     e.preventDefault();
     await axios
-      .post("https://server-2fc9.onrender.com/api/create", user)
+      .post(`${baseurl}/api/create`, user)
       .then((response) => {
         toast.success(response.data.msg, { position: "top-right" });
         navigate("/");

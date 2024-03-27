@@ -7,7 +7,7 @@ import { FaEdit } from "react-icons/fa";
 import { MdDelete } from "react-icons/md";
 import { IoMdPersonAdd } from "react-icons/io";
 import { IoAddCircleOutline } from "react-icons/io5";
-
+const baseurl = "https://server-2fc9.onrender.com";
 const User = () => {
   const [users, setUsers] = useState([]);
 
@@ -24,7 +24,7 @@ const User = () => {
 
   const deleteUser = async (userId) => {
     await axios
-      .delete(`http://localhost:8000/api/delete/${userId}`)
+      .delete(`${baseurl}/api/delete/${userId}`)
       .then((respones) => {
         setUsers((prevUser) => prevUser.filter((user) => user._id !== userId));
         toast.success(respones.data.msg, { position: "top-right" });

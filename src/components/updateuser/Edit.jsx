@@ -4,6 +4,7 @@ import axios from "axios";
 import "../adduser/add.css";
 import toast from "react-hot-toast";
 import { IoMdArrowRoundBack } from "react-icons/io";
+const baseurl = "https://server-2fc9.onrender.com";
 
 const Edit = () => {
   const users = {
@@ -27,7 +28,7 @@ const Edit = () => {
 
   useEffect(() => {
     axios
-      .get(`https://server-2fc9.onrender.com/api/getone/${id}`)
+      .get(`${baseurl}/api/getone/${id}`)
       .then((response) => {
         setUser(response.data);
       })
