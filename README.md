@@ -1,13 +1,7 @@
 # <h1>CRUD APP</h1>
-CRUD APP :
- This application features a light/dark mode toggle and a website share feature.
-
-In this app add a share feature for users to easily share the website link with others on social media, email whatsapp, or messaging apps.
-
-
-
-
-CRUD operations: Create, Read, Update, Delete. Users can add, view, edit, and remove entries effortlessly.
+Design CRUD app with React, Node.js, Express.js, MongoDB. Styled using custom CSS, Bootstrap. Added light/dark mode feature
+Users can add, view, edit, and delete data.
+In this app add a share feature for users to easily share the website link with others on social media, email whatsapp.
 <h2>Hosted Link</h2>
 <hr>
 <a href="https://crudapreeminent-daifuku-f68aa4.netlify.app/">Live</a>
