@@ -1,10 +1,11 @@
 # <h1>CRUD APP</h1>
 CRUD APP :
-This documentation serves as a guide for understanding and utilizing the CRUD (Create, Read, Update, Delete) MERN (MongoDB, Express.js, React.js, Node.js) application. The application features a light/dark mode toggle and a website share feature.
+ This application features a light/dark mode toggle and a website share feature.
 
-The app includes a simple share feature for users to easily share the website link.
-App lets users easily share the website link.
-Easily share the app link with others on social media, email, or messaging apps.
+In this app add a share feature for users to easily share the website link with others on social media, email whatsapp, or messaging apps.
+
+
+
 
 CRUD operations: Create, Read, Update, Delete. Users can add, view, edit, and remove entries effortlessly.
 <h2>Hosted Link</h2>
