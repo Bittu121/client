@@ -1,6 +1,8 @@
 # <h1>CRUD APP</h1>
 Design CRUD app with React, Node.js, Express.js, MongoDB. Styled using custom CSS, Bootstrap. Added light/dark mode feature
+<br>
 Users can add, view, edit, and delete data.
+<br>
 In this app add a share feature for users to easily share the website link with others on social media, email whatsapp.
 <h2>Hosted Link</h2>
 <hr>
